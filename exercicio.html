@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Criando funcionalidades próprias</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+
+	function pulaLinha() {
+    	document.write("<br><hr><br>");
+	}
+
+	function mostra(frase) {
+    	document.write("<big>" + frase + "</big>");
+    	pulaLinha();
+	}
+
+	var ano = 2021;
+	mostra("Eu nasci em : " + (ano - 28));
+	mostra("Adriano nasceu em : " + (ano - 26));
+	mostra("Paulo nasceu em : " + (ano - 32));
+
+	</script>
+</body>
+</html>

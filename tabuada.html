@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Tabuada</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		function pulaLinha() {
+			
+			document.write("<br><br>");
+		}
+
+		function mostra(frase) {
+			document.write(frase);
+			pulaLinha();
+		}
+
+
+		for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+			mostra(7 * multiplicador);
+		}
+
+		mostra("FIM.");
+
+		for( var i = 0; i < 10; i++ ) {
+ 	   		alert( "O resultado é " + (2 * i));
+		}
+
+		/* Converta-o para usar a instrução while. Lembre-se: o resultado do programa tem que ser o mesmo!
+
+		var i = 0;
+		while(i < 10) {
+			alert("O resultado é: " + (2 * i));
+			i++;
+		}
+		
+		var multiplicador = 1;
+
+		while(multiplicador <=10 ) {
+			mostra(7 * multiplicador);
+			multiplicador++;
+		}*/
+
+
+	</script>
+
+</body>
+</html>

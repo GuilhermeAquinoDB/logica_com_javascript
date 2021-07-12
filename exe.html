@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        function pulaLinha() {
+            
+            document.write("<br><br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var anoCopa = 1930;
+        var limite = parseInt(prompt("Qual é o ano limite?"));
+
+        while(anoCopa <= limite) {
+
+        mostra(anoCopa + " teve copa!");
+        if (anoCopa == 1938) {
+            mostra("Esses anos não teve copa. " + anoCopa);
+            anoCopa = anoCopa + 4;
+        }
+        if (anoCopa == 1942) {
+            mostra("Esses anos não teve copa. " + anoCopa);
+            anoCopa = anoCopa + 4;
+        }
+        if (anoCopa == 1946) {
+            mostra("Esses anos não teve copa. " + anoCopa);
+            anoCopa = anoCopa + 4;
+        }
+        anoCopa = anoCopa + 4;
+        }
+
+        mostra("Ufa! Esses foram os anos de copa até " + limite);
+
+</script>
+
+</body>
+</html>

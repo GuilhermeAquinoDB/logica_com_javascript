@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var anoAtual = 2021;
+	var anoNascimento = 1993;
+	var media = (28 + 20 + 41)/3;
+	var nome = "Guilherme"
+
+										// ARREDONDAOMENTO DE NUMEROS 
+	mostra("A média das idades é: " + Math.round(media) );
+	
+	mostra(" A soma das idades é: " + (20 + 10 + 30) );
+
+	mostra(nome +" nasceu em: " + (anoAtual - 28) );
+
+	mostra(nome +" tem: " + (anoAtual - anoNascimento) + " anos" );
+
+	document.write("Eu acertei: " + 15/50*100 + " %" );
+    
+	pulaLinha();
+
+    document.write("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D");
+
+</script>
